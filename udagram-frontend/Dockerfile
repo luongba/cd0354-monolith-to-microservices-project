@@ -1,5 +1,5 @@
 # Use the specified version of the ionic image
-FROM beevelop/ionic:latest AS ionic
+FROM beevelop/ionic:v2023.10.1 AS ionic
 # Create app directory
 WORKDIR /usr/src/app
 # Install app dependencies
