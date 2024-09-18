@@ -40,7 +40,3 @@ venv/
 .elasticbeanstalk/*
 !.elasticbeanstalk/*.cfg.yml
 !.elasticbeanstalk/*.global.yml
-
-git rm --cached set_env.sh
-# Prevent git from tracking the set_env.sh file
-echo *set_env.sh >> .gitignore
