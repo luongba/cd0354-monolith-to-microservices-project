@@ -13,7 +13,7 @@ spec:
         run: reverseproxy
     spec:
       containers:
-      - image: luongbadev/udagram-reverseproxy:v2
+      - image: luongbadev/udagram-reverseproxy:v3
         name: reverseproxy
         imagePullPolicy: Always          
         resources:
